@@ -6,15 +6,15 @@ import java.awt.*;
 class signin implements ActionListener {
 	JFrame f;
 
-	JLabel l1,l2;
+	JLabel l11,l2;
 	JTextField t1,t2;
 	JButton b1,b2;
 	signin(){
 			f=new JFrame();
 		f.setSize(500,400);
-		l1=new JLabel("UserName:");
-		l1.setBounds(60,30,70,20);
-		f.add(l1);
+		l11=new JLabel("UserName:");
+		l11.setBounds(60,30,70,20);
+		f.add(l11);
 		t1=new JTextField(10);
 		t1.setBounds(140,30,120,20);
 		f.add(t1);
